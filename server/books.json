@@ -1,0 +1,524 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "978-0-7432-7356-5",
+    "category": "Fiction",
+    "stock": 5,
+    "description": "A classic novel set in the Jazz Age",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "isbn": "978-0-06-112008-4",
+    "category": "Fiction",
+    "stock": 3,
+    "description": "A novel about racial injustice in the American South",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "978-0-452-28423-4",
+    "category": "Fiction",
+    "stock": 10,
+    "description": "A dystopian social science fiction novel",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "isbn": "978-0-14-143951-8",
+    "category": "Romance",
+    "stock": 7,
+    "description": "A romantic novel of manners",
+    "imageUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "isbn": "978-0-316-76948-0",
+    "category": "Fiction",
+    "stock": 4,
+    "description": "A story about teenage rebellion and alienation",
+    "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "isbn": "978-0-439-70818-8",
+    "category": "Fantasy",
+    "stock": 15,
+    "description": "The first book in the Harry Potter series",
+    "imageUrl": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf?w=400"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "978-0-547-92822-7",
+    "category": "Fantasy",
+    "stock": 8,
+    "description": "A fantasy novel about Bilbo Baggins' adventure",
+    "imageUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "isbn": "978-0-385-50420-1",
+    "category": "Mystery",
+    "stock": 6,
+    "description": "A mystery thriller novel",
+    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400"
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "978-0-132-35088-4",
+    "category": "Technology",
+    "stock": 12,
+    "description": "A handbook of agile software craftsmanship",
+    "imageUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400"
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "isbn": "978-0-062-31609-9",
+    "category": "History",
+    "stock": 9,
+    "description": "A brief history of humankind",
+    "imageUrl": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "isbn": "978-0-618-64561-1",
+    "category": "Fantasy",
+    "stock": 11,
+    "description": "Epic high fantasy trilogy",
+    "imageUrl": "https://images.unsplash.com/photo-1621944190310-e3cca1564bd7?w=400"
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "isbn": "978-0-452-28424-1",
+    "category": "Fiction",
+    "stock": 8,
+    "description": "A satirical allegorical novella",
+    "imageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "isbn": "978-0-06-085052-4",
+    "category": "Science Fiction",
+    "stock": 6,
+    "description": "A dystopian novel set in a futuristic World State",
+    "imageUrl": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=400"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "isbn": "978-0-06-112241-5",
+    "category": "Fiction",
+    "stock": 14,
+    "description": "A philosophical novel about following your dreams",
+    "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400"
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Bronte",
+    "isbn": "978-0-14-144114-6",
+    "category": "Romance",
+    "stock": 5,
+    "description": "A novel of intense passion and moral strength",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400"
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Bronte",
+    "isbn": "978-0-14-143955-6",
+    "category": "Romance",
+    "stock": 4,
+    "description": "A tale of passion and revenge",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400"
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "isbn": "978-0-06-076489-5",
+    "category": "Fantasy",
+    "stock": 10,
+    "description": "A series of seven fantasy novels",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400"
+  },
+  {
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "isbn": "978-0-14-243724-7",
+    "category": "Adventure",
+    "stock": 3,
+    "description": "The saga of Captain Ahab and his quest",
+    "imageUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "isbn": "978-0-14-303999-0",
+    "category": "Historical Fiction",
+    "stock": 2,
+    "description": "Epic novel of Russian society during the Napoleonic era",
+    "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400"
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "isbn": "978-0-14-310551-6",
+    "category": "Fiction",
+    "stock": 7,
+    "description": "A psychological novel exploring morality and redemption",
+    "imageUrl": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf?w=400"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "isbn": "978-0-374-52797-9",
+    "category": "Fiction",
+    "stock": 5,
+    "description": "A philosophical novel exploring faith and doubt",
+    "imageUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "isbn": "978-0-06-088328-7",
+    "category": "Magical Realism",
+    "stock": 8,
+    "description": "The multi-generational story of the Buendía family",
+    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400"
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "isbn": "978-0-14-026886-7",
+    "category": "Epic Poetry",
+    "stock": 6,
+    "description": "Ancient Greek epic poem",
+    "imageUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400"
+  },
+  {
+    "title": "The Iliad",
+    "author": "Homer",
+    "isbn": "978-0-14-027536-0",
+    "category": "Epic Poetry",
+    "stock": 6,
+    "description": "Epic poem set during the Trojan War",
+    "imageUrl": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "isbn": "978-1-451-67331-9",
+    "category": "Science Fiction",
+    "stock": 9,
+    "description": "A dystopian novel about book burning",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400"
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "isbn": "978-0-385-49081-8",
+    "category": "Science Fiction",
+    "stock": 11,
+    "description": "A dystopian novel set in a totalitarian society",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400"
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "isbn": "978-0-486-28211-4",
+    "category": "Horror",
+    "stock": 7,
+    "description": "The classic tale of science and creation",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400"
+  },
+  {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "isbn": "978-0-486-41109-7",
+    "category": "Horror",
+    "stock": 8,
+    "description": "The iconic vampire novel",
+    "imageUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "isbn": "978-0-486-27807-0",
+    "category": "Fiction",
+    "stock": 6,
+    "description": "A philosophical novel about beauty and morality",
+    "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400"
+  },
+  {
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "isbn": "978-0-14-062483-0",
+    "category": "Mystery",
+    "stock": 12,
+    "description": "Collection of detective stories",
+    "imageUrl": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf?w=400"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "isbn": "978-0-14-303943-3",
+    "category": "Historical Fiction",
+    "stock": 5,
+    "description": "A story of the Great Depression",
+    "imageUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400"
+  },
+  {
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "isbn": "978-0-14-017739-8",
+    "category": "Fiction",
+    "stock": 9,
+    "description": "A novella about friendship and dreams",
+    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400"
+  },
+  {
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "isbn": "978-0-399-50148-7",
+    "category": "Fiction",
+    "stock": 10,
+    "description": "A novel about civilization and savagery",
+    "imageUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400"
+  },
+  {
+    "title": "The Outsiders",
+    "author": "S.E. Hinton",
+    "isbn": "978-0-14-038572-4",
+    "category": "Young Adult",
+    "stock": 13,
+    "description": "A coming-of-age novel about rival gangs",
+    "imageUrl": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400"
+  },
+  {
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "isbn": "978-0-544-33626-8",
+    "category": "Young Adult",
+    "stock": 14,
+    "description": "A dystopian novel about a seemingly perfect society",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400"
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "isbn": "978-0-439-02348-1",
+    "category": "Young Adult",
+    "stock": 20,
+    "description": "A dystopian novel about a televised death match",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400"
+  },
+  {
+    "title": "Divergent",
+    "author": "Veronica Roth",
+    "isbn": "978-0-06-202402-2",
+    "category": "Young Adult",
+    "stock": 15,
+    "description": "A dystopian novel about a faction-based society",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "isbn": "978-0-14-242417-9",
+    "category": "Young Adult",
+    "stock": 18,
+    "description": "A love story between two cancer patients",
+    "imageUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400"
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "isbn": "978-0-375-84220-7",
+    "category": "Historical Fiction",
+    "stock": 12,
+    "description": "A story set in Nazi Germany narrated by Death",
+    "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400"
+  },
+  {
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "isbn": "978-0-15-602732-2",
+    "category": "Adventure",
+    "stock": 8,
+    "description": "A survival story about a boy and a Bengal tiger",
+    "imageUrl": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf?w=400"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "isbn": "978-1-594-48000-3",
+    "category": "Fiction",
+    "stock": 10,
+    "description": "A story of friendship and redemption in Afghanistan",
+    "imageUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400"
+  },
+  {
+    "title": "A Thousand Splendid Suns",
+    "author": "Khaled Hosseini",
+    "isbn": "978-1-594-48385-1",
+    "category": "Fiction",
+    "stock": 9,
+    "description": "A story of two Afghan women",
+    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400"
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "isbn": "978-0-307-38789-9",
+    "category": "Post-Apocalyptic",
+    "stock": 6,
+    "description": "A father and son's journey through a devastated America",
+    "imageUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400"
+  },
+  {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "isbn": "978-1-400-07877-6",
+    "category": "Science Fiction",
+    "stock": 7,
+    "description": "A dystopian novel about human clones",
+    "imageUrl": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400"
+  },
+  {
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "isbn": "978-0-679-73172-1",
+    "category": "Fiction",
+    "stock": 5,
+    "description": "A butler reflects on his life and career",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400"
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "isbn": "978-0-385-33384-9",
+    "category": "Science Fiction",
+    "stock": 8,
+    "description": "A novel about World War II and time travel",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400"
+  },
+  {
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "isbn": "978-1-451-62146-5",
+    "category": "Satire",
+    "stock": 7,
+    "description": "A satirical novel set during World War II",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400"
+  },
+  {
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "isbn": "978-0-06-114851-4",
+    "category": "Fiction",
+    "stock": 6,
+    "description": "A semi-autobiographical novel about mental illness",
+    "imageUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400"
+  },
+  {
+    "title": "The Color Purple",
+    "author": "Alice Walker",
+    "isbn": "978-0-15-602835-0",
+    "category": "Fiction",
+    "stock": 9,
+    "description": "An epistolary novel about an African American woman",
+    "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400"
+  },
+  {
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "isbn": "978-1-400-03341-6",
+    "category": "Fiction",
+    "stock": 7,
+    "description": "A novel about the aftermath of slavery",
+    "imageUrl": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf?w=400"
+  },
+  {
+    "title": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "isbn": "978-0-14-243726-1",
+    "category": "Fiction",
+    "stock": 5,
+    "description": "A story of sin, guilt, and redemption",
+    "imageUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400"
+  },
+  {
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "isbn": "978-0-486-28061-5",
+    "category": "Adventure",
+    "stock": 8,
+    "description": "A boy's journey down the Mississippi River",
+    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400"
+  },
+  {
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "isbn": "978-0-486-40077-0",
+    "category": "Adventure",
+    "stock": 10,
+    "description": "Classic American coming-of-age story",
+    "imageUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400"
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "isbn": "978-0-14-143960-0",
+    "category": "Historical Fiction",
+    "stock": 6,
+    "description": "Set during the French Revolution",
+    "imageUrl": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400"
+  },
+  {
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "isbn": "978-0-14-143956-3",
+    "category": "Fiction",
+    "stock": 7,
+    "description": "The story of an orphan named Pip",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400"
+  },
+  {
+    "title": "Oliver Twist",
+    "author": "Charles Dickens",
+    "isbn": "978-0-14-143974-7",
+    "category": "Fiction",
+    "stock": 5,
+    "description": "The story of an orphan in Victorian London",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400"
+  },
+  {
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "isbn": "978-0-14-303999-0",
+    "category": "Fiction",
+    "stock": 11,
+    "description": "The lives of four sisters",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400"
+  },
+  {
+    "title": "Anne of Green Gables",
+    "author": "L.M. Montgomery",
+    "isbn": "978-0-14-036705-8",
+    "category": "Fiction",
+    "stock": 9,
+    "description": "The story of an orphan girl",
+    "imageUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400"
+  }
+]

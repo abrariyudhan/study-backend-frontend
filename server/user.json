@@ -1,0 +1,18 @@
+[
+      {
+        "email": "admin@library.com",
+        "password": "adminPassword",
+        "fullName": "Library Admin",
+        "role": "admin",
+        "phone": null,
+        "address": null
+      },
+      {
+        "email": "member@library.com",
+        "password": "memberPassword",
+        "fullName": "Test Member",
+        "role": "member",
+        "phone": "081234567890",
+        "address": "123 Member Street"
+      }
+    ]
