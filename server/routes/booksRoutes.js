@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const booksController = require('../controllers/booksController')
+const { adminOnly } = require('../middlewares/authen');
+
+router.use(adminOnly); // Authentication middleware for admin only
 
 router.get('/', booksController.getAllBooks)
 router.get('/:id', booksController.getBookById)

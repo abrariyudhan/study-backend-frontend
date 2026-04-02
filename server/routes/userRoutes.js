@@ -3,7 +3,7 @@ const router = express.Router();
 const userController = require('../controllers/userController');
 const { adminOnly } = require('../middlewares/authen');
 
-// router.use(adminOnly);
+router.use(adminOnly); // Authentication middleware for admin only
 
 router.get('/', userController.getAllUser);
 router.get('/:id', userController.getUserById);
