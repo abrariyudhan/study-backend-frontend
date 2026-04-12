@@ -33,12 +33,12 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     bookingDate: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
       allowNull: false,
-      defaultValue: DataTypes.NOW
+      defaultValue: sequelize.literal('CURDATE()')
     },
     returnDate: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
       allowNull: true
     },
     status: {
