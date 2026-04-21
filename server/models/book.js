@@ -22,8 +22,8 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty: {
           msg: 'Title is required'
         },
-        notNull: { 
-          msg: 'Title is required' 
+        notNull: {
+          msg: 'Title is required'
         }
       }
     },
@@ -34,8 +34,8 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty: {
           msg: 'Author is required'
         },
-        notNull: { 
-          msg: 'Author is required' 
+        notNull: {
+          msg: 'Author is required'
         }
       }
     },
@@ -49,12 +49,25 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty: {
           msg: 'ISBN is required'
         },
-        notNull: { 
-          msg: 'ISBN is required' 
+        notNull: {
+          msg: 'ISBN is required'
         },
-        len: {
-          args: [10, 13],
-          msg: 'ISBN must be either 10 or 13 characters long'
+        isValidISBN(value) {
+          // hanya angka dan strip
+          if (!/^[0-9-]+$/.test(value)) {
+            throw new Error('ISBN can only contain numbers and "-"');
+          }
+
+          // wajib ada strip
+          if (!value.includes('-')) {
+            throw new Error('ISBN must include "-"');
+          }
+
+          // panjang dihitung dari digit saja
+          const digitsOnly = value.replace(/-/g, '');
+          if (![10, 13].includes(digitsOnly.length)) {
+            throw new Error('ISBN must contain 10 or 13 digits');
+          }
         }
       }
     },
@@ -65,8 +78,8 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty: {
           msg: 'Category is required'
         },
-        notNull: { 
-          msg: 'Category is required' 
+        notNull: {
+          msg: 'Category is required'
         }
       }
     },
@@ -78,8 +91,8 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty: {
           msg: 'Stock is required'
         },
-        notNull: { 
-          msg: 'Stock is required' 
+        notNull: {
+          msg: 'Stock is required'
         },
         min: {
           args: [0],
